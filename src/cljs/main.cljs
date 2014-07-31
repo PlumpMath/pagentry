@@ -38,6 +38,7 @@
                               :style {:position "absolute"
                                       :top 0
                                       :left 0
+                                      :-webkit-transform (str "translateX(-" x-pos  "%)" )
                                       :transform (str "translateX(-" x-pos  "%)" )
                                       :background (str "#"color)}}
                              (dom/article {:style {:font-size "40vw"}} (str index)) ;; you can put views here
@@ -50,6 +51,7 @@
                                                :font-size "5vh"
                                                :color (if toggle "white" "#A7F5AB")
                                                :transform (str "translateY(-" x-pos  "%)" )
+                                               :-webkit-transform (str "translateY(-" x-pos  "%)" )
                                                :background (if toggle  "#A7F5AB" "white")
                                                :bottom 0
                                                :right 0}} (str toggle)))))
