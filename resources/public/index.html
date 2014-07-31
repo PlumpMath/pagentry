@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html><head><title>pagentry</title><meta content="width=device-width, initial-scale=1.0" http-equiv="Content-type" name="viewport"><style>html {
+  height: 100%;
+  font-family: arial;
+  width: 100%;
+  margin: 0;
+}
+
+.z-index {
+  z-index: 99;
+}
+
+.selected {
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+.trans {
+  transition: all .1s ease-in-out;
+}
+
+.flex {
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.column {
+  flex-flow: column;
+  -webkit-flex-flow: column;
+  -moz-flex-flow: column;
+  -o-flex-flow: column;
+  -ms-flex-flow: column;
+}
+
+.full {
+  height: 100%;
+  width: 100%;
+}
+
+#app {
+  position: relative;
+  -webkit-position: relative;
+  -moz-position: relative;
+  -o-position: relative;
+  -ms-position: relative;
+  perspective-origin: 50% 50%;
+  -webkit-perspective-origin: 50% 50%;
+  -moz-perspective-origin: 50% 50%;
+  -o-perspective-origin: 50% 50%;
+  -ms-perspective-origin: 50% 50%;
+  perspective: 1100px;
+  -webkit-perspective: 1100px;
+  -moz-perspective: 1100px;
+  -o-perspective: 1100px;
+  -ms-perspective: 1100px;
+}
+
+.half {
+  height: 50%;
+  width: 50%;
+}
+
+.trans {
+  transition: all .2s ease-in-out;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .vid-frame {
+    height: 50%;
+    width: 100%;
+  }
+
+}
+
+.aboutus-frame {
+  height: 100%;
+  width: 50%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .aboutus-frame {
+    height: 50%;
+    width: 50%;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .un-mobile {
+    display: none;
+  }
+
+}</style><script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/0.6.11/fastclick.min.js" type="text/javascript"></script><link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" type="text/css"><script type="text/javascript">//<![CDATA[
+window.addEventListener('load', function() {
+                                 FastClick.attach(document.body);
+                                 }, false);
+//]]></script></head><body class="full"><div class="full" id="app"></div><script src="http://fb.me/react-0.11.0.js" type="text/javascript"></script><script src="/javascripts/main/out/goog/base.js" type="text/javascript"></script><script src="/javascripts/main/app.js" type="text/javascript"></script><script type="text/javascript">//<![CDATA[
+goog.require('pagentry.main')
+//]]></script></body></html>
